@@ -42,6 +42,3 @@ for (i = 0; i < guestsNumber; i++) {  // <= ?
     // guestSurname.push = alphabetArray[guestSurnameRandom];
   }
 }
-
-console.log(guestName);
-console.log(guestSurname);

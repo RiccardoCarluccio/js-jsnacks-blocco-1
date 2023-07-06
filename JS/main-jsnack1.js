@@ -48,9 +48,14 @@ for (i = 0; i < guestsNumber; i++) {  // <= ?
 
 //l'ultimo ciclo FOR da problemi
 //lascio la correzione alla fine
+//ERRORE DI SINTASSI DEL PUSH()?????????
 
 
 //VERO E PROPRIO ESERCIZIO
 const listaNomi = ['Jose', 'Arcadio', 'Ursula', 'Remedios', 'Amaranta', 'Rebeca', 'Aureliano'];
 const listaCognomi = ['Buendìa', 'Iguarán', 'Ternera', 'Moscote', 'Crespi'];
+const guestID = [];
 
+for (i = 0; i < listaNomi.length; i++) {
+  guestID.push() 
+}

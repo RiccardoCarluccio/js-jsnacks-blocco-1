@@ -14,8 +14,8 @@ per unire nomi e cognomi > ${nome} + " " + ${cognome};
 
 const alphabetGlued = 'abcdefghijklmnopqrstuvwxyz';
 const alphabetArray = alphabetGlued.split('');
-let name;
-let surname;
+const guestName = [];
+const guestSurname = [];
 //"So if you want to organise a Gatsby themed party as authentic as possible, then you should organise an event for anywhere between 350 and 400 people."
 const guestsNumber = Math.floor((Math.random() * 51) + 350);
 
@@ -25,10 +25,23 @@ console.log(alphabetArray);
 console.log(guestsNumber);
 //EVERYTHING WORKS
 
-// for (i = 0; i < guestsNumber; i++) {  // <= ?
-// const nameLenght = Math.floor(Math.random() * 4 + 5); //nome e/o cognome di 5-8 caratteri
+//GUESTS NUMBER
+for (i = 0; i < guestsNumber; i++) {  // <= ?
+  //NAME LENGTH
+  const nameLenght = Math.floor(Math.random() * 4 + 5); //nome e/o cognome di 5-8 caratteri
 
-//   for (i = 0; i <= nameLenght; i++) {
-//     let name = alphabetArray[Math.floor(Math.random() * (parseInt(alphabetGlued.length)) + 1)]
-//   }
-// }
+  for (i = 0; i <= nameLenght; i++) {
+    const guestNameRandom = Math.floor(Math.random() * alphabetGlued.length);
+    const guestSurnameRandom = Math.floor(Math.random() * alphabetGlued.length);
+    
+    //TEST RANDOM NUMBERS
+    console.log(`guestNameRandom is: ${guestNameRandom}`);
+    console.log(`guestSurnameRandom is: ${guestSurnameRandom}`);
+
+    // guestName.push = alphabetArray[guestNameRandom]; //forse aggiungere +1 ma non credo
+    // guestSurname.push = alphabetArray[guestSurnameRandom];
+  }
+}
+
+console.log(guestName);
+console.log(guestSurname);

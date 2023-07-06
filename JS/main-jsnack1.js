@@ -32,15 +32,25 @@ for (i = 0; i < guestsNumber; i++) {  // <= ?
   //TEST NAME LENGTH
   console.log(`nameLength is: ${nameLength}`);
 
-  // for (i = 0; i <= nameLenght; i++) {
-  //   const guestNameRandom = Math.floor(Math.random() * alphabetGlued.length);
-  //   const guestSurnameRandom = Math.floor(Math.random() * alphabetGlued.length);
+  // for (i = 0; i <= nameLength; i++) {
+  //   //RANGE DA CUI PRENDERE LE LETTERE DELL'ALFABETO
+  //   const guestNameRandom = Math.floor(Math.random() * 27);
+  //   const guestSurnameRandom = Math.floor(Math.random() * 27);
     
   //   //TEST RANDOM NUMBERS
   //   console.log(`guestNameRandom is: ${guestNameRandom}`);
   //   console.log(`guestSurnameRandom is: ${guestSurnameRandom}`);
 
-    // guestName.push = alphabetArray[guestNameRandom]; //forse aggiungere +1 ma non credo
-    // guestSurname.push = alphabetArray[guestSurnameRandom];
+  //   // guestName.push = alphabetArray[guestNameRandom]; //forse aggiungere +1 ma non credo
+  //   // guestSurname.push = alphabetArray[guestSurnameRandom];
   // }
 }
+
+//l'ultimo ciclo FOR da problemi
+//lascio la correzione alla fine
+
+
+//VERO E PROPRIO ESERCIZIO
+const listaNomi = ['Jose', 'Arcadio', 'Ursula', 'Remedios', 'Amaranta', 'Rebeca', 'Aureliano'];
+const listaCognomi = ['Buendìa', 'Iguarán', 'Ternera', 'Moscote', 'Crespi'];
+

@@ -62,4 +62,6 @@ for (i = 0; i < listaNomi.length; i++) {
 
   const cognome = listaCognomi[Math.floor(Math.random() * parseInt(listaCognomi.length))];
   console.log(`Cognome scelto: ${cognome}`);
+
+  console.log(`L'invitato #${i + 1} è: ${nome} ${cognome}`);
 }

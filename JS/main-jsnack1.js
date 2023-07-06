@@ -57,5 +57,9 @@ const listaCognomi = ['Buendìa', 'Iguarán', 'Ternera', 'Moscote', 'Crespi'];
 const guestID = [];
 
 for (i = 0; i < listaNomi.length; i++) {
-  guestID.push() 
+  const nome = listaNomi[Math.floor(Math.random() * parseInt(listaNomi.length))];
+  console.log(nome);
+
+  const cognome = listaCognomi[Math.floor(Math.random() * parseInt(listaCognomi.length))];
+  console.log(cognome);
 }

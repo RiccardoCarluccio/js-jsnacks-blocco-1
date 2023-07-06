@@ -58,8 +58,8 @@ const guestID = [];
 
 for (i = 0; i < listaNomi.length; i++) {
   const nome = listaNomi[Math.floor(Math.random() * parseInt(listaNomi.length))];
-  console.log(nome);
+  console.log(`Nome scelto: ${nome}`);
 
   const cognome = listaCognomi[Math.floor(Math.random() * parseInt(listaCognomi.length))];
-  console.log(cognome);
+  console.log(`Cognome scelto: ${cognome}`);
 }

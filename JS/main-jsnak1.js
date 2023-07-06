@@ -23,6 +23,7 @@ const guestsNumber = Math.floor((Math.random() * 51) + 350);
 console.log(alphabetGlued);
 console.log(alphabetArray);
 console.log(guestsNumber);
+//EVERYTHING WORKS
 
 // for (i = 0; i < guestsNumber; i++) {  // <= ?
 // const nameLenght = Math.floor(Math.random() * 4 + 5); //nome e/o cognome di 5-8 caratteri

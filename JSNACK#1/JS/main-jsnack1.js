@@ -42,14 +42,13 @@ for (i = 0; i < guestsNumber; i++) {  // <= ?
     console.log(`guestNameRandom is: ${guestNameRandom}`);
     console.log(`guestSurnameRandom is: ${guestSurnameRandom}`);
 
-    // guestName.push = alphabetArray[guestNameRandom]; //forse aggiungere +1 ma non credo
-    // guestSurname.push = alphabetArray[guestSurnameRandom];
+    // guestName.push(alphabetArray[guestNameRandom]); //forse aggiungere +1 ma non credo
+    // guestSurname.push(alphabetArray[guestSurnameRandom]);
    }
    */
 }
 
 //l'ultimo ciclo FOR da problemi perchè il numero di cicli è troppo grande
-//errore di sintassi dei .push alle righe 45 e 46
 
 
 //VERO E PROPRIO ESERCIZIO

@@ -32,6 +32,14 @@ for (i = 0; i < guestsNumber; i++) {  // <= ?
   //TEST NAME LENGTH
   console.log(`nameLength is: ${nameLength}`);
 
+  //da mettere nel for successivo ma portati fuori come test
+  const guestNameRandom = Math.floor(Math.random() * parseInt(alphabetArray.length));
+  const guestSurnameRandom = Math.floor(Math.random() * parseInt(alphabetArray.length));
+
+  console.log(`guestNameRandom is: ${guestNameRandom}`);
+  console.log(`guestSurnameRandom is: ${guestSurnameRandom}`);
+  //fine test. Funzionanti
+
   /*
   for (i = 0; i < nameLength; i++) {
     // RANGE DA CUI PRENDERE LE LETTERE DELL'ALFABETO
@@ -52,6 +60,7 @@ for (i = 0; i < guestsNumber; i++) {  // <= ?
 
 
 //VERO E PROPRIO ESERCIZIO
+console.log('Inizio stirpe Buendìa');
 const listaNomi = ['Jose', 'Arcadio', 'Ursula', 'Remedios', 'Amaranta', 'Rebeca', 'Aureliano'];
 const listaCognomi = ['Buendìa', 'Iguarán', 'Ternera', 'Moscote', 'Crespi'];
 const guestID = [];
